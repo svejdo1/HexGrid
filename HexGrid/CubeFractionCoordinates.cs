@@ -43,8 +43,7 @@ namespace Barbar.HexGrid
         {
             return new CubeFractionCoordinates(a.Q * (1 - t) + b.Q * t, a.R * (1 - t) + b.R * t, a.S * (1 - t) + b.S * t);
         }
-
-
+        
         static public IList<CubeCoordinates> HexLinedraw(CubeCoordinates a, CubeCoordinates b)
         {
             int n = CubeCoordinates.Distance(a, b);
