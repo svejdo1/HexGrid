@@ -11,6 +11,12 @@ Gives mathematical support for various operations over hex-tiled map. Like:
  - finding a neighbour in hex-tiled space
  - I have a hex with this coordinates, where will be its center and vertexes
  
+## Nuget
+
+https://www.nuget.org/packages/Barbar.HexGrid/
+
+Install-Package Barbar.HexGrid
+
 ## License
 
 Licensed under the MIT License. See the LICENCE file for more information.
